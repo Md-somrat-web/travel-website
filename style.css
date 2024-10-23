@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Volkhov", serif;
+  background-color: #e5e5e5;
+}
+.container {
+  padding: 48px 140px;
+}
+header {
+  padding: 40px 140px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #212832;
+  background-color: transparent;
+}
+select {
+  border: none;
+  background-color: #e5e5e5;
+}
+/* header end */
+/* banner start */
+.text h3 {
+  color: #df6951;
+}
+.text h1 {
+  font-weight: bold;
+  color: #181e4b;
+  font-size: 40px;
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn1 {
+  background-color: yellow;
+  width: 170px;
+  height: 60px;
+  border: 0;
+  border-radius: 10px;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.button {
+  display: flex;
+}
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.demo img {
+  width: 70px;
+}
+.demo h4 {
+  margin-top: -3px;
+}
+.banner-photo img {
+  width: 500px;
+  height: 500px;
+}
+/* banner end */
+/* describtion start */
+.tittel {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  grid-template-columns: repeat(3 1fr);
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.card-img img {
+  margin-left: 40px;
+}
+.card {
+  text-align: center;
+}
+
+/* describtion end */
+/* Destinations start */
+.destination {
+  text-align: center;
+}
+/* Destinations end */
+/* tour-img satr */
+.photo-shop {
+  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.photo-shop img {
+  width: 100%;
+}
+.tour1 .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.tour1 {
+  background-color: #ffffff;
+  color: #5e6282;
+  border-radius: 5px;
+  position: relative;
+}
+.position {
+  position: absolute;
+  bottom: 5px;
+  background-color: #ffffff;
+  width: 323px;
+  border-bottom-right-radius: px;
+  padding-left: 10px;
+}
